@@ -15,8 +15,7 @@ import { Projectos } from './Components/projectos.jsx';
 import { ProjectosUi } from './Components/projectosUi.jsx';
 
 import { ErrorPage } from './Components/errorPage.jsx';
-import { Contacto } from './Components/contacto.jsx';
-import { ContactDetails } from './Components/contactDetails.jsx';
+
 
 
 import { Setup } from './Components/setup.jsx';
@@ -36,10 +35,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "contacto",
-        element: <Contacto />,
       },
       {
         path: "sobre",
@@ -63,15 +58,10 @@ const router = createBrowserRouter([
       },
      
       // 4- nested routes -identificador unico
-      {
-        path: "contacto/:id",
-        element: <ContactDetails />,
-      },
+      
       //  7- navigate para pag inexstente
-      {
-        path: "oldContact",
-        element: <Navigate to="/Contact" />,
-      },
+     
+    
       {
         path: "setup",
         element: <Setup />,

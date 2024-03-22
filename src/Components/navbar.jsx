@@ -34,7 +34,7 @@ export const Navbar = () => {
           <img src={Logo} alt="Logo" className="w-8 sm:w-12 " />
         </Link>
 
-        <ul className="hidden sm:flex md:flex lg:flex flex-row gap-4">
+        <ul className="hidden sm:flex md:flex lg:flex flex-row gap-8">
           <Dropdown>
             {(showDropdown) => (
               <>
@@ -112,11 +112,9 @@ export const Navbar = () => {
             <Link to="Loja">Loja</Link>
           </li>
           <li className="hover:border-b-zinc-600 hover:border-b-4">
-            <Link to="Livros">Livros</Link>
+            <Link to="Livros">Tecnologias</Link>
           </li>
-          <li className="hover:border-b-zinc-600 hover:border-b-4">
-            <Link to="Contacto">Contacto</Link>
-          </li>
+          
         </ul>
         
         <div onClick={handleNav} className="sm:hidden ">
@@ -205,11 +203,9 @@ export const Navbar = () => {
             <Link to="Loja">Loja</Link>
           </li>
           <li className="border-zinc-600 border-b">
-            <Link to="Livros">Livros</Link>
+            <Link to="Livros">Tecnologias</Link>
           </li>
-          <li className="border-zinc-600 border-b">
-            <Link to="Contacto">Contacto</Link>
-          </li>
+          
           </ul>
         </div>
       </div>

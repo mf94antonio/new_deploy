@@ -29,10 +29,9 @@ export const Home = () => {
             </Link>
           </button>
           {/* Apresentação e filtração dos drops */}
-          <div className="mr-8 mt-8">
+          <div className="mt-8">
             <div className="w-full flex justify-between border-b border-zinc-600">
               <p className="text-zinc-600 text-sm">Últimos Drops</p>
-              <p className="text-zinc-600 text-sm">Filtrar</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 md:grid-clos-3">
