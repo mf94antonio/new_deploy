@@ -23,10 +23,10 @@ export const Projectos = () => {
           {web.map((item, index)=> (
             <Link to={item.path} key={index}>
               <div className='border shadow-lg rounded hover:scale-105 object-cover duration-500'>
-                <img src={item.image} alt={item.name} className='flex w-full h-[120px] '/>
+                <img src={item.image} alt={item.name} className='flex w-full h-[120px] sm:h-[120px] rounded-t'/>
 
                 <div>
-                <p className='py-1 px-2'>{item.name}</p>
+                <p className='py-1 px-2 text-sm md:text-md'>{item.name}</p>
                 </div>
               </div>
             </Link>

@@ -28,14 +28,20 @@ export const Home = () => {
               Me contacte
             </Link>
           </button>
-
-          <div className="grid grid-cols-2 gap-4 md:grid-clos-3 my-8">
+          {/* Apresentação e filtração dos drops */}
+          <div className="mr-8 mt-8">
+            <div className="w-full flex justify-between border-b border-zinc-600">
+              <p className="text-zinc-600 text-sm">Últimos Drops</p>
+              <p className="text-zinc-600 text-sm">Filtrar</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4 md:grid-clos-3">
             {last.map((item, index)=>(
             <Link to={item.path} key={index}>
               <div className="border max-w-[280px] shadow-lg rounded hover:scale-105 object-cover duration-500">
-                <img src={item.image} alt={item.name} className="w-full  flex h-[120px] "/>
+                <img src={item.image} alt={item.name} className="w-full  flex h-[100px] sm:h-[120px] rounded-t"/>
                 <div>
-                  <p className="py-1 px-2 text-sm md:text-xl">
+                  <p className="py-1 px-2 text-sm md:text-md">
                     {item.name}
                   </p>
                 </div>

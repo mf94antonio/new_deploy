@@ -17,10 +17,10 @@ export const ProjectosUi = () => {
           {design.map((item, index)=> (
             <Link to={item.path} key={index}>
               <div className='border  shadow-lg rounded hover:scale-105 object-cover duration-500'>
-                <img src={item.image} alt={item.name} className='w-full flex h-[120px]'/>
+                <img src={item.image} alt={item.name} className='w-full flex h-[120px] sm:h-[120px] rounded-t'/>
 
                 <div>
-                <p className='px-2 py-1'>{item.name}</p>
+                <p className='px-2 py-1 text-sm md:text-md'>{item.name}</p>
                 </div>
               </div>
             </Link>
