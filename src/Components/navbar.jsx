@@ -40,8 +40,8 @@ export const Navbar = () => {
               <>
                 <Link to="#" className="hover:border-b-zinc-600 hover:border-b-4 pb-1">Sobre</Link>
                 {showDropdown && (
-                  <div className="w-60 border flex flex-col absolute left-1/2 transform -translate-x-1/2 translate-y-2 ease-in-out duration-1000">
-                    <Link to="/sobreMim" className="hover:bg-zinc-600 p-4">
+                  <div className="w-[200px] bg-zinc-900 flex flex-col border p-2 gap-2 absolute text-sm left-1/2 transform -translate-x-1/2 translate-y-2 hover:scale-105 duration-1000">
+                    <Link to="/sobreMim" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Sobre mim</strong>
                       </h5>
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         Conheça um pouco mais sobre mim e o que eu faço.
                       </p>
                     </Link>
-                    <Link to="/projectos" className="hover:bg-zinc-600 px-4">
+                    <Link to="/projectos" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Projectos Web</strong>
                       </h5>
@@ -57,7 +57,7 @@ export const Navbar = () => {
                         Todos os projetos que venho desenvolvendo durante a minha...
                       </p>
                     </Link>
-                    <Link to="/projectosUi" className="hover:bg-zinc-600 p-4">
+                    <Link to="/projectosUi" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Projectos UI/UX</strong>
                       </h5>
@@ -77,8 +77,8 @@ export const Navbar = () => {
               <>
                 <Link to="#" className="hover:border-b-zinc-600 hover:border-b-4 pb-1">Setup</Link>
                 {showDropdown && (
-                  <div className="w-60 flex flex-col border absolute left-1/2 transform -translate-x-1/2 translate-y-2">
-                    <Link to="/Equipamentos" className="hover:bg-zinc-600 p-4">
+                  <div className="w-[200px] bg-zinc-900 flex flex-col border p-2 gap-2 absolute text-sm left-1/2 transform -translate-x-1/2 translate-y-2 hover:scale-105 duration-1000">
+                    <Link to="/Equipamentos" className="hover:bg-zinc-600 ">
                       <h5>
                         <strong>Equipamentos</strong>
                       </h5>
@@ -86,7 +86,7 @@ export const Navbar = () => {
                         Conheça um pouco mais sobre os equipamentos que uso.
                       </p>
                     </Link>
-                    <Link to="/stacks" className="hover:bg-zinc-600 px-4">
+                    <Link to="/stacks" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Staks</strong>
                       </h5>
@@ -94,7 +94,7 @@ export const Navbar = () => {
                         Tecnologias e stacks que utilizo em meus projetos.
                       </p>
                     </Link>
-                    <Link to="/Wallpapers" className="hover:bg-zinc-600 p-4">
+                    <Link to="/Wallpapers" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Wallpapers</strong>
                       </h5>
@@ -112,7 +112,7 @@ export const Navbar = () => {
             <Link to="Loja">Loja</Link>
           </li>
           <li className="hover:border-b-zinc-600 hover:border-b-4">
-            <Link to="Livros">Tecnologias</Link>
+            <Link to="tecnologias">Tecnologias</Link>
           </li>
           
         </ul>
@@ -125,14 +125,14 @@ export const Navbar = () => {
           !nav 
           ? "overflow-y-hidden md:hidden absolute text-gray-300 left-0 top-10 w-full h-screen bg-black/90 ease-in duration-1000 px-4 py-7 flex flex-col" 
           : "absolute top-28 h-screen left-[-100%] ease-in duration-1000 "}>
-          <ul className=" w-full flex flex-col justify-center gap-4 items-center p-4   sm:flex ">
+          <ul className=" w-full flex flex-col justify- my-auto gap-8 items-center sm:flex ">
           <Dropdown>
             {(showDropdown) => (
               <>
                 <Link to="#" onClick={handleNav} className="border-zinc-600 border-b pb-1">Sobre</Link>
                 {showDropdown && (
-                  <div className="w-60 border flex flex-col left-1/2 transform ">
-                    <Link to="/sobreMim" className="hover:bg-zinc-600 p-4">
+                  <div className="w-[200px] bg-zinc-900 flex flex-col border p-2 gap-2 text-sm">
+                    <Link to="/sobreMim" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Sobre mim</strong>
                       </h5>
@@ -140,7 +140,7 @@ export const Navbar = () => {
                         Conheça um pouco mais sobre mim e o que eu faço.
                       </p>
                     </Link>
-                    <Link to="/projectos" className="hover:bg-zinc-600 px-4">
+                    <Link to="/projectos" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Projectos Web</strong>
                       </h5>
@@ -148,7 +148,7 @@ export const Navbar = () => {
                         Todos os projetos que venho desenvolvendo durante a minha...
                       </p>
                     </Link>
-                    <Link to="/projectosUi" className="hover:bg-zinc-600 p-4">
+                    <Link to="/projectosUi" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Projectos UI/UX</strong>
                       </h5>
@@ -168,8 +168,8 @@ export const Navbar = () => {
               <>
                 <Link to="#" className="border-zinc-600 border-b pb-1">Setup</Link>
                 {showDropdown && (
-                  <div className="w-60 flex flex-col border left-1/2 ease-in duration-1000">
-                    <Link to="/Equipamentos" className="hover:bg-zinc-600 p-4">
+                  <div className="w-[200px] bg-zinc-900 flex flex-col border p-2 gap-2 text-sm">
+                    <Link to="/Equipamentos" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Equipamentos</strong>
                       </h5>
@@ -177,7 +177,7 @@ export const Navbar = () => {
                         Conheça um pouco mais sobre os equipamentos que uso.
                       </p>
                     </Link>
-                    <Link to="/stacks" className="hover:bg-zinc-600 px-4">
+                    <Link to="/stacks" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Stacks</strong>
                       </h5>
@@ -185,7 +185,7 @@ export const Navbar = () => {
                         Tecnologias e stacks que utilizo em meus projetos.
                       </p>
                     </Link>
-                    <Link to="/Wallpapers" className="hover:bg-zinc-600 p-4">
+                    <Link to="/Wallpapers" className="hover:bg-zinc-600">
                       <h5>
                         <strong>Wallpapers</strong>
                       </h5>

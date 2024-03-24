@@ -21,6 +21,7 @@ import { ErrorPage } from './Components/errorPage.jsx';
 import { Setup } from './Components/setup.jsx';
 import { SetupDetails } from './Components/setupDetails.jsx';
 import { Equipamentos } from './Components/equipamentos.jsx';
+import { Tecnologias } from './Components/tecnologias.jsx';
 
 
 
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
       {
         path: "equipamentos",
         element: <Equipamentos />,
+      },
+      {
+        path: "tecnologias",
+        element: <Tecnologias />,
       },
     ],
   },
