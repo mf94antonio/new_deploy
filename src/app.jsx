@@ -3,7 +3,7 @@ import { Navbar } from "./Components/navbar";
 import { Footer } from "./Components/footer";
 
 
-export function App() {
+ function App() {
  
 
   return (
@@ -19,5 +19,5 @@ export function App() {
      
   )
 }
-
+export default App
 
