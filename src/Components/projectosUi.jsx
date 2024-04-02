@@ -16,7 +16,7 @@ export const ProjectosUi = () => {
         <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 my-8  '>
           {design.map((item, index)=> (
             <Link to={item.path} key={index}>
-              <div className='border  shadow-lg rounded hover:scale-105 object-cover duration-500'>
+              <div className='bg-zinc-400 min-w-[120px] max-w-[230px] border  shadow-lg rounded hover:scale-105 object-cover duration-500'>
                 <img src={item.image} alt={item.name} className='w-full flex h-[120px] sm:h-[120px] rounded-t'/>
 
                 <div>

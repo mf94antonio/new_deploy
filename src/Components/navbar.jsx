@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
-import Logo from "../img/ma.png";
+import Logo from "../img/man.png";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
 
@@ -28,13 +28,13 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-[1500px] border-b border-zinc-600">
-      <div className=" max-w-[700px]  mx-auto flex flex-row w-full justify-between items-center py-1 px-[30px] gap-16 relative">
+    <nav className="max-w-[1500px]  border-b border-zinc-600">
+      <div className="min-w-[300px] max-w-[1000px] h-[100px] mx-auto flex flex-row w-full justify-between px-4 items-center py-1 relative">
         <Link to="/">
-          <img src={Logo} alt="Logo" className="w-8 sm:w-12 " />
+          <img src={Logo} alt="Logo" className="w-16 sm:w-20 " />
         </Link>
 
-        <ul className="hidden sm:flex md:flex lg:flex flex-row gap-8">
+        <ul className="hidden sm:flex md:flex lg:flex flex-row gap-16">
           <Dropdown>
             {(showDropdown) => (
               <>

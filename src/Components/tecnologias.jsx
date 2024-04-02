@@ -1,4 +1,4 @@
-import {FaHtml5, FaReact, FaPhp, FaDatabase } from 'react-icons/fa';
+import {FaHtml5, FaReact, FaPhp, FaDatabase, FaGithub, FaGitAlt  } from 'react-icons/fa';
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 
@@ -44,6 +44,26 @@ export const Tecnologias = () => {
             
             <h5 className='w-[290px] h-full flex items-center bg-black rounded-full px-2'>TAILWINDCSS</h5>
             <h5 className='pr-2 '>45%</h5>
+        </div>
+      </div>
+
+       {/* GIT */}
+       <div className='flex gap-2 items-center w-full md:max-w-[700px] hover:scale-105 duration-1000'>
+        <FaGitAlt size={60} color='#eed94e' className='hidden sm:flex'/>
+        <div className="w-full max-w-[580px] h-10 bg-red-500 rounded-full flex justify-between items-center font-bold text-black">
+            
+            <h5 className='w-[550px] h-full flex items-center bg-green-400 rounded-full px-2'>PHP</h5>
+            <h5 className='pr-2 '>90%</h5>
+        </div>
+      </div>
+
+       {/* GITHUB */}
+       <div className='flex gap-2 items-center w-full hover:scale-105 duration-1000'>
+        <FaGithub size={60} color='#5a5a5b' className='hidden sm:flex'/>
+        <div className="w-full h-10 bg-gray-400 rounded-full flex justify-between items-center font-bold text-black">
+            
+            <h5 className='w-[500px] h-full flex items-center bg-zinc-300 rounded-full px-2'>PHP</h5>
+            <h5 className='pr-2 '>80%</h5>
         </div>
       </div>
 
