@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <nav className="max-w-[1500px]  border-b border-zinc-600">
-      <div className="min-w-[300px] max-w-[1000px] h-[100px] mx-auto flex flex-row w-full justify-between px-4 items-center py-1 relative">
+      <div className=" max-w-[1000px] h-[100px] mx-auto flex flex-row w-full justify-between px-4 items-center py-1 relative">
         <Link to="/">
           <img src={Logo} alt="Logo" className="w-16 sm:w-20 " />
         </Link>
