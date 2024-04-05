@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <footer className='w-full max-w-[1500px] overflow-hidden fixed bottom-8 px-4 flex justify-center items-center sm:px-4'>
-        <ul className=' max-h-[80px]  w-full border max-w-[500px] gap-4 rounded-md py-4 flex flex-row justify-center items-center px-4'>
+    <footer className='w-full max-w-[1500px] overflow-hidden px-4 flex justify-end sm:justify-center sm:items-center sm:px-4'>
+        <ul className=' max-h-[200px] max-w-[60px] sm:max-h-[80px] sm:max-w-[500px]  w-full border  gap-4 rounded-md py-4 flex flex-col sm:flex-row justify-center items-center px-4'>
             <li >
                 <Link to="https://www.linkedin.com/in/manuel-ant%C3%B3nio-7954921a9/">
                     <FaLinkedin className='text-2xl hover:text-6xl sm:text-3xl md:text-4xl '/>

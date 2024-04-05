@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si";
 export const Tecnologias = () => {
   return (
     <div className="max-w-[1500px]">
-    <div className="'w-full py-[34px] max-h-screen mx-auto p-[30px] flex flex-col gap-2 md:w-[1000px] my-8">
+    <div className="'w-full py-[34px] h-screen mx-auto p-[30px] flex flex-col gap-2 max-w-[1000px] min-w-[300px] my-8">
       <h1 className='mx-auto font-extrabold text-4xl mb-12 '>TECNOLOGIAS QUE ENTENDO</h1>
         {/* HTML $ CSS */}
       <div className='flex gap-2 items-center w-full hover:scale-105 duration-1000'>

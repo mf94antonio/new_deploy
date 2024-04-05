@@ -28,8 +28,8 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-[1500px]  border-b border-zinc-600">
-      <div className=" max-w-[1000px] h-[100px] mx-auto flex flex-row w-full justify-between px-4 items-center py-1 relative">
+    <nav className="max-w-[1500px] min-w-[300px]  border-b border-zinc-600 px-4">
+      <div className=" max-w-[1000px] h-[100px] mx-auto flex flex-row w-full justify-between  items-center py-1 relative">
         <Link to="/">
           <img src={Logo} alt="Logo" className="w-16 sm:w-20 " />
         </Link>
