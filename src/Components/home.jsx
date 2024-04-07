@@ -37,16 +37,16 @@ export const Home = () => {
           </div>
           <div className="grid grid-cols-2 gap-4  sm:grid-cols-3">
             {last.map((item, index)=>(
-            <Link to={item.path} key={index}>
-              <div className="bg-zinc-600 border min-w-[120px] max-w-[230px] shadow-lg rounded hover:scale-105 object-cover duration-500">
+            
+              <div  className="bg-zinc-600 border min-w-[120px] max-w-[230px] shadow-lg rounded hover:scale-105 object-cover duration-500"><Link to={item.path} key={index}>
                 <img src={item.image} alt={item.name} className="w-full  flex h-[120px] sm:h-[120px]  rounded-t"/>
                 <div>
                   <p className="py-1 px-2 text-sm md:text-md">
                     {item.name}
                   </p>
-                </div>
+                </div></Link>
               </div>
-            </Link>
+            
               ))}
           </div>
   </div>

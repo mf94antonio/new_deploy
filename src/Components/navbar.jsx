@@ -112,7 +112,7 @@ export const Navbar = () => {
             <Link to="Loja">Loja</Link>
           </li>
           <li className="hover:border-b-zinc-600 hover:border-b-4">
-            <Link to="tecnologias">Tecnologias</Link>
+            <Link to="tecnology">Tecnologias</Link>
           </li>
           
         </ul>
@@ -203,7 +203,7 @@ export const Navbar = () => {
             <Link to="Loja">Loja</Link>
           </li>
           <li className="border-zinc-600 border-b">
-            <Link to="Livros">Tecnologias</Link>
+            <Link to="tecnology">Tecnologias</Link>
           </li>
           
           </ul>
