@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 import { ReactTyped } from "react-typed"
 
 const upDate = [
-  {id: 1, name: 'Projectos Web', image: 'https://readwrite.com/wp-content/uploads/2022/08/Set-up-Your-PC-Room.jpg', path: "/projectos"},
-  {id: 2, name: 'Projectos UI/UX', image: 'https://img.freepik.com/vetores-premium/tela-de-login-do-aplicativo-movel_74097-65.jpg', path: "/projectosUi"},
-  {id: 3, name: 'Projectos Design', image: 'https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202307/why-design-thinking-is-important-in-todays-job-industries-132433-16x9.jpg?VersionId=r3DkuIlkjSZI0KClaN79ksVBKui34xNG', path: "/projectosUi"},
+  {id: 1, name: 'Projetos Web', image: 'https://readwrite.com/wp-content/uploads/2022/08/Set-up-Your-PC-Room.jpg', path: "/projectos"},
+  {id: 2, name: 'UI', image: 'https://img.freepik.com/vetores-premium/tela-de-login-do-aplicativo-movel_74097-65.jpg', path: "/projectosUi"},
+  {id: 3, name: 'Design', image: 'https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202307/why-design-thinking-is-important-in-todays-job-industries-132433-16x9.jpg?VersionId=r3DkuIlkjSZI0KClaN79ksVBKui34xNG', path: "/projectosUi"},
 ];
 
 export const Home = () => {
