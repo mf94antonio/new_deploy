@@ -12,7 +12,7 @@ export const Home = () => {
   const [last, setLast] = useState(upDate);
   return (
   
-  <div className="'w-full py-[34px] max-h-screen mx-auto p-[30px] flex flex-col gap-2 max-w-[1500px] md:w-[1020px]">
+  <div className="'w-full h-screen py-[34px] max-h-screen mx-auto p-[30px] flex flex-col gap-2 max-w-[1500px] md:w-[1020px]">
         <h1 className="w-full font-Roboto flex h-sceen text-sm sm:text-4xl md:text-6xl">
            <b>Hey, I´m Manuel- Full Stack</b><br/>
         </h1>

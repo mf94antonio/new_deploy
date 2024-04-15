@@ -51,7 +51,7 @@ export const Navbar = () => {
                     </Link>
                     <Link to="/projectos" className="hover:bg-zinc-600">
                       <h5>
-                        <strong>Projectos Web</strong>
+                        <strong>Projetos</strong>
                       </h5>
                       <p className="text-zinc-500">
                         Todos os projetos que venho desenvolvendo durante a minha...
@@ -59,7 +59,7 @@ export const Navbar = () => {
                     </Link>
                     <Link to="/projectosUi" className="hover:bg-zinc-600">
                       <h5>
-                        <strong>Projectos UI/UX</strong>
+                        <strong>UI</strong>
                       </h5>
                       <p className="text-zinc-500">
                       Todos os projetos que venho desenvolvendo durante a minha...
@@ -142,7 +142,7 @@ export const Navbar = () => {
                     </Link>
                     <Link to="/projectos" className="hover:bg-zinc-600">
                       <h5>
-                        <strong>Projectos Web</strong>
+                        <strong>Projetos</strong>
                       </h5>
                       <p className="text-zinc-500">
                         Todos os projetos que venho desenvolvendo durante a minha...
@@ -150,7 +150,7 @@ export const Navbar = () => {
                     </Link>
                     <Link to="/projectosUi" className="hover:bg-zinc-600">
                       <h5>
-                        <strong>Projectos UI/UX</strong>
+                        <strong>UI</strong>
                       </h5>
                       <p className="text-zinc-500">
                       Todos os projetos que venho desenvolvendo durante a minha...
